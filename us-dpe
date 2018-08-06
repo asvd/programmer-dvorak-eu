@@ -1,0 +1,44 @@
+// Programmer Dvorak with European Letters
+// by Dmitry Prokashev <heliosframework at gmail dot com>
+// based on Programmer Dvorak by Roland Kaufmann
+//
+// european characters match the original letters in the same way
+// as they do in EurKEY by Steffen Bruentjen
+//
+partial alphanumeric_keys
+xkb_symbols "dpe" {
+
+    include "us(dvp)"
+    name[Group1] = "English (Programmer Dvorak with European Letters)";
+
+
+    key <AD02> { [ comma,           less,            ograve,               Ograve ] };
+    key <AD03> { [ period,          greater,         oacute,               Oacute ] };
+    key <AD04> { [ p,               P,                   oe,                   OE ] };
+    key <AD05> { [ y,               Y,           ydiaeresis,           Ydiaeresis ] };
+    key <AD06> { [ f,               F,               egrave,               Egrave ] };
+    key <AD07> { [ g,               G,               eacute,               Eacute ] };
+    key <AD08> { [ c,               C,             ccedilla,             Ccedilla ] };
+    key <AD09> { [ r,               R,               yacute,               Yacute ] };
+    key <AD10> { [ l,               L,               oslash,               Oslash ] };
+
+    key <AC01> { [ a,               A,           adiaeresis,           Adiaeresis ] };
+    key <AC02> { [ o,               O,           odiaeresis,           Odiaeresis ] };
+    key <AC03> { [ e,               E,           ediaeresis,           Ediaeresis ] };
+    key <AC04> { [ u,               U,           udiaeresis,           Udiaeresis ] };
+    key <AC05> { [ i,               I,           idiaeresis,           Idiaeresis ] };
+    key <AC06> { [ d,               D,                  eth,                  Eth ] };
+    key <AC07> { [ h,               H,               ugrave,               Ugrave ] };
+    key <AC08> { [ t,               T,                thorn,                Thorn ] };
+    key <AC09> { [ n,               N,               ntilde,               Ntilde ] };
+    key <AC10> { [ s,               S,               ssharp,              section ] };
+
+    key <AB02> { [ q,               Q,                   ae,                   AE ] };
+    key <AB03> { [ j,               J,               uacute,               Uacute ] };
+    key <AB04> { [ k,               K,                U0133,                U0132 ] };
+    key <AB05> { [ x,               X,               aacute,               Aacute ] };
+    key <AB06> { [ b,               B,               iacute,               Iacute ] };
+    key <AB08> { [ w,               W,                aring,                Aring ] };
+    key <AB09> { [ v,               V,               igrave,               Igrave ] };
+    key <AB10> { [ z,               Z,               agrave,               Agrave ] };
+};
