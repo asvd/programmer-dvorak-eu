@@ -3,7 +3,7 @@
 // based on Programmer Dvorak by Roland Kaufmann
 //
 // european characters match the original letters in the same way
-// as they do in EurKEY by Steffen Bruentjen
+// they do in EurKEY by Steffen Bruentjen
 //
 partial alphanumeric_keys
 xkb_symbols "dpe" {
