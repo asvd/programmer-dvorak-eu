@@ -1,6 +1,8 @@
 **Dvorak for Programmers with European Keys**
 ==============================================
 
+*A single layout. Both for prgramming, and for everything else.*
+
 This is the usual **Dvorak for Programmers** keyboard layout (initially made by Ronald Kaufmann) upgraded to include European characters as alternative symbols. The way they match the main letters was inspired by [EurKEY](https://eurkey.steffen.bruentjen.eu) layout (by Steffen Bruentjen). Other special characters distributed among the keys in a *reasonable* way (in my own way of understanding of what *reasonable* is, although feedback is always appreciated).
 
 ![Dvorak for Programmers with European Keys](preview.png)
