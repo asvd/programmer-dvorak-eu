@@ -22,7 +22,7 @@ xkb_symbols "dpe" {
     key <AE09> { [ plus,         4                                                   ] };
     key <AE10> { [ bracketright, 6,             guillemotright,                U203A ] };
     key <AE11> { [ exclam,       8,                 exclamdown,                U2E18 ] };
-    key <AE12> { [ numbersign,   grave,              copyright,           numerosign ] };
+    key <AE12> { [ numbersign,   grave,        dead_circumflex,           dead_caron ] };
 
     key <AD01> { [ semicolon,    colon,     doublelowquotemark,   singlelowquotemark ] };
     key <AD02> { [ comma,        less,     leftdoublequotemark,  leftsinglequotemark ] };
@@ -35,7 +35,7 @@ xkb_symbols "dpe" {
     key <AD09> { [ r,            R,                     yacute,               Yacute ] };
     key <AD10> { [ l,            L,                     oslash,               Oslash ] };
     key <AD11> { [ slash,        question,        questiondown,                U203D ] };
-    key <AD12> { [ at,           asciicircum,  dead_circumflex,           dead_caron ] };
+    key <AD12> { [ at,           asciicircum,        copyright,           numerosign ] };
 
     key <AC01> { [ a,            A,                 adiaeresis,           Adiaeresis ] };
     key <AC02> { [ o,            O,                 odiaeresis,           Odiaeresis ] };
